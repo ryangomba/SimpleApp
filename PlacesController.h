@@ -39,6 +39,7 @@
     IBOutlet NSTextField *queryField;
     IBOutlet NSTextField *categoryField;
     IBOutlet NSTextField *radiusField;
+    IBOutlet NSTextField *limitField;
 }
 
 - (IBAction)loadPlaces:(id)sender;

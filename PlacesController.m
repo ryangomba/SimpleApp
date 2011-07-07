@@ -35,17 +35,20 @@
 
 - (IBAction)loadPlaces:(id)sender
 {
-    [[self client] getPlacesNear:[SGPoint pointWithLatitude:[latitudeField doubleValue]
-                                                  longitude:[longitudeField doubleValue]]
-                        matching:[queryField stringValue]
-                      inCategory:[categoryField stringValue]
-                          within:[radiusField floatValue]];
+    SGPlacesQuery *testQuery = [SGPlacesQuery queryWithPoint:[SGPoint pointWithLatitude:[latitudeField doubleValue]
+                                                                              longitude:[longitudeField doubleValue]]];
+    [testQuery setSearchQuery:[queryField stringValue]];
+    [testQuery setCategories:[NSArray arrayWithObject:[categoryField stringValue]]];
+    [testQuery setRadius:[radiusField floatValue]];
+    [testQuery setLimit:[limitField intValue]];
+    
+    [[self client] getPlacesForQuery:testQuery];
 }
 
 #pragma mark SimpleGeoPlaceDelegate methods
 
 - (void)didLoadPlaces:(SGFeatureCollection *)places
-             forQuery:(NSDictionary *)query
+           forSGQuery:(SGPlacesQuery *)query
 {
 }
 

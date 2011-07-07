@@ -36,12 +36,13 @@
 
 - (IBAction)loadContext:(id)sender
 {
-    [[self client] getContextForPoint:[SGPoint pointWithLatitude:[latitudeField doubleValue]
-                                                       longitude:[longitudeField doubleValue]]];
+    SGQuery *testQuery = [SGQuery queryWithPoint:[SGPoint pointWithLatitude:[latitudeField doubleValue]
+                                                                  longitude:[longitudeField doubleValue]]];
+    [[self client] getContextForQuery:testQuery];
 }
 
 - (void)didLoadContext:(NSDictionary *)context
-              forQuery:(NSDictionary *)query
+            forSGQuery:(SGQuery *)query
 {
 }
 
