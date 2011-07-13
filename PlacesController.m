@@ -37,7 +37,7 @@
 {
     SGPlacesQuery *testQuery = [SGPlacesQuery queryWithPoint:[SGPoint pointWithLatitude:[latitudeField doubleValue]
                                                                               longitude:[longitudeField doubleValue]]];
-    [testQuery setSearchQuery:[queryField stringValue]];
+    [testQuery setSearchString:[queryField stringValue]];
     [testQuery setCategories:[NSArray arrayWithObject:[categoryField stringValue]]];
     [testQuery setRadius:[radiusField floatValue]];
     [testQuery setLimit:[limitField intValue]];

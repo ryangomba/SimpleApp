@@ -11,20 +11,23 @@
 		256AC3DA0F4B6AC300CF3369 /* SimpleAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* SimpleAppAppDelegate.m */; };
 		5D28B48312AC9955005C3CBF /* PlacesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28B48212AC9955005C3CBF /* PlacesController.m */; };
 		5D28B4A312ACB029005C3CBF /* FeaturesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D28B4A212ACB029005C3CBF /* FeaturesController.m */; };
-		5D76766E12CEAC85006B7D51 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D76766D12CEAC85006B7D51 /* YAJL.framework */; };
-		5D76769F12CEAE22006B7D51 /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D76766D12CEAC85006B7D51 /* YAJL.framework */; };
 		5D9EEC6512AC729D002FC462 /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC6412AC729D002FC462 /* ContextController.m */; };
 		5D9EEC8512AC88A7002FC462 /* SimpleGeoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */; };
 		5DF085E112AD84D2007A8A60 /* compass_512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5DF085E012AD84D2007A8A60 /* compass_512.icns */; };
-		5DF6545F12D7EDB100664279 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DF6545E12D7EDB100664279 /* Sparkle.framework */; };
-		5DF6547312D7EDC100664279 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF6545E12D7EDB100664279 /* Sparkle.framework */; };
 		5DF6547812D7EF1C00664279 /* Sparkle_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5DF6547712D7EF1C00664279 /* Sparkle_pub.pem */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		942AAF9413CE57020053A9DC /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942AAF9113CE57020053A9DC /* YAJL.framework */; };
+		942AAF9513CE57840053A9DC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		942AAF9613CE57840053A9DC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E42FB307B3F0F600E4EEF1 /* CoreData.framework */; };
+		942AAF9713CE57840053A9DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		942AAF9913CE57D50053A9DC /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942AAF9813CE57D50053A9DC /* SimpleGeo.framework */; };
+		942AAF9D13CE62040053A9DC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942AAF9C13CE62040053A9DC /* Sparkle.framework */; };
+		942AAF9E13CE62290053A9DC /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 942AAF9813CE57D50053A9DC /* SimpleGeo.framework */; };
+		942AAF9F13CE62290053A9DC /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 942AAF9C13CE62040053A9DC /* Sparkle.framework */; };
+		942AAFA013CE62290053A9DC /* YAJL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 942AAF9113CE57020053A9DC /* YAJL.framework */; };
 		94AD785213C636EC0045902A /* StorageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD785113C636EC0045902A /* StorageController.m */; };
-		94AD785513C6383B0045902A /* SimpleGeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AD785413C6383B0045902A /* SimpleGeo.framework */; };
-		94AD786C13C64BB10045902A /* SimpleGeo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 94AD785413C6383B0045902A /* SimpleGeo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,9 +37,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5DF6545F12D7EDB100664279 /* Sparkle.framework in CopyFiles */,
-				5D76769F12CEAE22006B7D51 /* YAJL.framework in CopyFiles */,
-				94AD786C13C64BB10045902A /* SimpleGeo.framework in CopyFiles */,
+				942AAF9E13CE62290053A9DC /* SimpleGeo.framework in CopyFiles */,
+				942AAF9F13CE62290053A9DC /* Sparkle.framework in CopyFiles */,
+				942AAFA013CE62290053A9DC /* YAJL.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,19 +60,19 @@
 		5D28B48212AC9955005C3CBF /* PlacesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesController.m; sourceTree = "<group>"; };
 		5D28B4A112ACB029005C3CBF /* FeaturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturesController.h; sourceTree = "<group>"; };
 		5D28B4A212ACB029005C3CBF /* FeaturesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturesController.m; sourceTree = "<group>"; };
-		5D76766D12CEAC85006B7D51 /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = ext/YAJL.framework; sourceTree = "<group>"; };
 		5D9EEC6312AC729D002FC462 /* ContextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextController.h; sourceTree = "<group>"; };
 		5D9EEC6412AC729D002FC462 /* ContextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextController.m; sourceTree = "<group>"; };
 		5D9EEC8312AC88A7002FC462 /* SimpleGeoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleGeoController.h; sourceTree = "<group>"; };
 		5D9EEC8412AC88A7002FC462 /* SimpleGeoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleGeoController.m; sourceTree = "<group>"; };
 		5DF085E012AD84D2007A8A60 /* compass_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = compass_512.icns; sourceTree = "<group>"; };
-		5DF6545E12D7EDB100664279 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ext/Sparkle.framework; sourceTree = "<group>"; };
 		5DF6547712D7EF1C00664279 /* Sparkle_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sparkle_pub.pem; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SimpleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleApp-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942AAF9113CE57020053A9DC /* YAJL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YAJL.framework; path = ext/YAJL.framework; sourceTree = "<group>"; };
+		942AAF9813CE57D50053A9DC /* SimpleGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleGeo.framework; path = ext/SimpleGeo.framework; sourceTree = "<group>"; };
+		942AAF9C13CE62040053A9DC /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ext/Sparkle.framework; sourceTree = "<group>"; };
 		94AD785013C636EC0045902A /* StorageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageController.h; sourceTree = "<group>"; };
 		94AD785113C636EC0045902A /* StorageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageController.m; sourceTree = "<group>"; };
-		94AD785413C6383B0045902A /* SimpleGeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleGeo.framework; path = ext/SimpleGeo.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +80,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DF6547312D7EDC100664279 /* Sparkle.framework in Frameworks */,
+				942AAF9513CE57840053A9DC /* AppKit.framework in Frameworks */,
+				942AAF9613CE57840053A9DC /* CoreData.framework in Frameworks */,
+				942AAF9713CE57840053A9DC /* Foundation.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				5D76766E12CEAC85006B7D51 /* YAJL.framework in Frameworks */,
-				94AD785513C6383B0045902A /* SimpleGeo.framework in Frameworks */,
+				942AAF9413CE57020053A9DC /* YAJL.framework in Frameworks */,
+				942AAF9913CE57D50053A9DC /* SimpleGeo.framework in Frameworks */,
+				942AAF9D13CE62040053A9DC /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,22 +115,22 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				94AD785413C6383B0045902A /* SimpleGeo.framework */,
-				5DF6545E12D7EDB100664279 /* Sparkle.framework */,
-				5D76766D12CEAC85006B7D51 /* YAJL.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
 		};
-		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+		1058C7A2FEA54F0111CA2CBB /* External Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
-				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
-				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				942AAF9813CE57D50053A9DC /* SimpleGeo.framework */,
+				942AAF9C13CE62040053A9DC /* Sparkle.framework */,
+				942AAF9113CE57020053A9DC /* YAJL.framework */,
 			);
-			name = "Other Frameworks";
+			name = "External Frameworks";
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -172,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
-				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* External Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/ext\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -308,6 +315,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/ext\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
